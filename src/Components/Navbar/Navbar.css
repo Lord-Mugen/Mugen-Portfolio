@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    background-color: #0B090A;
+    padding: .4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    color: red;
+}
+
+.navbar-li{
+    margin-left: 1rem;
+}
+
+.navbar-link{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1rem;
+
+}
+
