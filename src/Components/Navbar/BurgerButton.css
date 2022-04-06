@@ -1,4 +1,10 @@
 /* nav-icon-5 */
+
+.icon{
+  background-color: #0B090A;
+}
+
+
 .nav-icon-5{
     width: 35px;
     height: 30px;
@@ -8,7 +14,7 @@
     display: inline-block;
   }
   .nav-icon-5 span{
-    background-color:#fff;
+    background-color: #A4161A;
     position: absolute;
     border-radius: 2px;
     transition: .3s cubic-bezier(.8, .5, .2, 1.4);
@@ -49,3 +55,5 @@
     transform: rotate(-45deg);
     top: 13px;
   }
+
+

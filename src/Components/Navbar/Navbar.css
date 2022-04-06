@@ -7,7 +7,7 @@
 }
 
 h2{
-    color: red;
+    color: #A4161A;
 }
 
 .navbar-li{
@@ -18,6 +18,15 @@ h2{
     color: #ffffff;
     text-decoration: none;
     margin-right: 1rem;
-
+    cursor: pointer;
 }
+
+.contact{
+    border: 2px solid #A4161A;
+    padding: 10px 20px;
+}
+
+
+/*MEDIAQUERYS FOR THE Burguer*/
+
 
