@@ -6,7 +6,6 @@ import { Icon } from '@iconify/react';
 const Navbar = () => {
   const openIcon = <Icon icon="gg:menu-right" className="open-icon"/>; 
   const closeIcon = <Icon icon="eva:close-fill" className="close-icon"/>;
-  const logoIcon = <Icon icon="vscode-icons:file-type-htmlhint" />;
 
   return (
     <div>
@@ -14,7 +13,6 @@ const Navbar = () => {
 
         <header className="navbar-header">
           <a href="#" className="brand-link">
-            {logoIcon}
             <span className="brand">Logo</span>
           </a>
           <a href="#navbar-header" className="navbar-menu-mobile open">

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div>
         
-        Hero
+        <h1>HERO</h1>
 
     </div>
   )
