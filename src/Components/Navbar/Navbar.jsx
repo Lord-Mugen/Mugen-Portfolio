@@ -20,7 +20,6 @@ const Navbar = () => {
               <a className="navbar-link contact" href="#">Contact</a>
           </div>
           <button className="nav-mobile-icon">
-            {isMobile ?}
           </button>
         </nav>
     </div>

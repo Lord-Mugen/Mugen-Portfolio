@@ -1,9 +1,13 @@
 .navbar{
-    display: flex;
     background-color: #0B090A;
     padding: .4rem;
+}
+
+.navbar-link-container{
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+    
 }
 
 h2{
