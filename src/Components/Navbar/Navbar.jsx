@@ -16,7 +16,7 @@ const Navbar = () => {
 
         <header className="navbar-header">
           <a href="#" className="brand-link">
-            <img src={Logo} alt="LOGO" className="brand"/>
+            <img src={Logo} alt="logo" className="brand"/>
           </a>
           <a href="#navbar-header" className="navbar-menu-mobile open">
             {openIcon}
