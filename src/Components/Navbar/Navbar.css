@@ -22,7 +22,7 @@ a{
 }
 
 .navbar-header{
-    padding: 1rem;
+    padding: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,9 +43,13 @@ a{
     font-size: 2rem;
 }
 
+.brand{
+    width: 3.5em;
+}
+
 .contact{
     border: 1px solid #A4161A;
-    padding: 7px 13px;
+    padding: 0.6em 0.85em;
 }
 
 .navbar-container{
@@ -92,8 +96,11 @@ a{
     height: 34px;
 }
 
-
+                                    /* MEDIAQUERYS */
 @media (min-width: 768px) {
+    html{
+        font-size: 100%;
+    }
     .navbar{
         display: flex;
         justify-content: space-between;

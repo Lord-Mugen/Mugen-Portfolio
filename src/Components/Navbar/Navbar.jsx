@@ -1,9 +1,12 @@
 import React from 'react';
 import './Navbar.css';
 import { Icon } from '@iconify/react';
+import Logo from '../../assets/images/logo2.png';
+
 
 
 const Navbar = () => {
+  /* ICONS */
   const openIcon = <Icon icon="gg:menu-right" className="open-icon"/>; 
   const closeIcon = <Icon icon="eva:close-fill" className="close-icon"/>;
 
@@ -13,7 +16,7 @@ const Navbar = () => {
 
         <header className="navbar-header">
           <a href="#" className="brand-link">
-            <span className="brand">Logo</span>
+            <img src={Logo} alt="LOGO" className="brand"/>
           </a>
           <a href="#navbar-header" className="navbar-menu-mobile open">
             {openIcon}
