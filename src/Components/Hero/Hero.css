@@ -1,0 +1,15 @@
+:root{
+    --primary: #0B090A;
+    --red: #A4161A;
+    --white: #ffffff;
+}
+
+
+
+.hero-h1{
+    color: var(--white);
+}
+
+.hero-h3{
+    color: var(--white);
+}
