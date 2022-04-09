@@ -1,4 +1,5 @@
 import React from 'react';
+import Animation from '../Animation/Animation';
 import './About.css';
 
 const About = () => {
@@ -20,7 +21,7 @@ const About = () => {
           <p className="about-me-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eum architecto itaque consequatur voluptate autem quaerat ad, natus eius voluptas ipsa earum quidem reiciendis nulla velit perferendis temporibus in delectus.</p>
         </div>
         <div className="about-animation">
-
+          <Animation/>
         </div>
       </section>
     </div>
