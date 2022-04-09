@@ -39,7 +39,6 @@ a{
 }
 
 .brand-link{
-    color: var(--white);
     font-size: 2rem;
 }
 
@@ -67,6 +66,7 @@ a{
 
 .navbar-link{
     color: var(--white);
+    font-family: 'Quicksand', sans-serif;
 }
 
 #navbar-header:target .navbar-container{
@@ -124,13 +124,53 @@ a{
 }
 
 @media (min-width: 1200px) {
+    .brand-link{
+        padding-left: 0.5em;
+        font-size: clamp(1.2rem, 5vw, 3rem);  
 
+    }
+
+    .navbar-link{
+        font-size: clamp(1.2rem, 5vw, 1rem);  
+        
+    }
+
+    .contact{
+        border: 2px solid #A4161A;
+        padding: 0.3em 0.9em;
+    }
 }
 
 @media (min-width: 1400px) {
+    .brand-link{
+        padding-left: 1em;
 
+    }
+
+    .navbar-link{
+        font-size: clamp(1.2rem, 5vw, 1.5rem);  
+        
+    }
+
+    .contact{
+        border: 2px solid #A4161A;
+        padding: 0.3em 0.9em;
+    }
 }
 
 @media (min-width: 1600px) {
+    .brand-link{
+        padding-left: 1.2em;
 
+    }
+
+    .navbar-link{
+        font-size: clamp(1.2rem, 5vw, 1.7rem);  
+        
+    }
+
+    .contact{
+        border: 2px solid #A4161A;
+        padding: 0.3em 1em;
+    }
 }

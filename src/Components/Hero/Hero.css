@@ -96,14 +96,13 @@
 
     .hero-image-container{
         width: 30%;
-        padding-top: 1em;
         margin-left: 3em;
     }
 
     .portrait-image{
         border-radius: 1em;
         height: 90%;
-        margin-top: 3em;
+        margin-top: 1em;
 
     }
 
@@ -115,7 +114,7 @@
     .hero-h1{
         text-align: start;
         font-size: clamp(1.9rem, 10vw, 4.5rem);  
-        margin-top: 4em;
+        margin-top: 2em;
         line-height: px;
     }
     .hero-h3{
@@ -128,12 +127,91 @@
 
 @media (min-width: 1200px) {
 
+    .hero{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .portrait-image{
+        border-radius: 1em;
+        height: 85%;
+    }
+
+    .hero-text-container{
+        align-content: center;
+        padding-bottom: 3.5em;
+        padding-left: 3em;
+        margin-right: 5em;
+    }
+
+    .hero-h1{
+        text-align: start;
+        font-size: clamp(1.9rem, 10vw, 6rem);  
+
+    }
+    .hero-h3{
+        text-align: start;
+        font-size: clamp(1.2rem, 5vw, 2rem);  
+
+    }
+
 }
 
 @media (min-width: 1400px) {
+    
+    .hero{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .portrait-image{
+        border-radius: 1em;
+        height: 90%;
+    }
 
+    .hero-text-container{
+        align-content: flex-end;
+        padding-bottom: 6em;
+        padding-left: 4.5em;
+        margin-right: 6em;
+    }
+
+    .hero-h1{
+        text-align: start;
+        font-size: clamp(1.9rem, 10vw, 7rem);  
+
+    }
+    .hero-h3{
+        text-align: start;
+        font-size: clamp(1.2rem, 5vw, 2rem);  
+
+    }
 }
 
 @media (min-width: 1600px) {
+    .hero{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .portrait-image{
+        border-radius: 1em;
+        height: 90%;
+        width:90%;
+    }
 
+    .hero-text-container{
+        align-content: flex-end;
+        padding-bottom: 6em;
+        padding-left: 4.5em;
+        margin-right: 8em;
+    }
+
+    .hero-h1{
+        text-align: start;
+        font-size: clamp(1.9rem, 10vw, 8rem);  
+
+    }
+    .hero-h3{
+        text-align: start;
+        font-size: clamp(1.2rem, 5vw, 3rem);  
+
+    }
 }
