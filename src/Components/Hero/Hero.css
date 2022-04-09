@@ -16,12 +16,12 @@
 
 .hero-image-container{
     width: 14.5em;
-    margin-bottom: 2.5em;
+    margin-bottom: 2em;
 }
 
 .portrait-image{
     width: 100%;
-    height: 95%;
+    height: 80%;
     border-radius: 10em;
 
 }
@@ -192,7 +192,7 @@
         justify-content: flex-end;
     }
     .portrait-image{
-        border-radius: 1em;
+        border-radius: 50%;
         height: 90%;
         width:90%;
     }

@@ -1,0 +1,20 @@
+:root{
+    --primary: #0B090A;
+    --red: #A4161A;
+    --white: #ffffff;
+}
+
+
+.about{
+    background: var(--primary);
+    display: grid;
+    justify-items: center;
+}
+
+.about-title{
+    color: var(--red);
+}
+
+.about-me-description{
+    color: var(--white);
+}

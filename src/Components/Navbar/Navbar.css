@@ -47,8 +47,13 @@ a{
 }
 
 .contact{
+    color: var(--white);
     border: 1px solid #A4161A;
     padding: 0.6em 0.85em;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+
 }
 
 .navbar-container{
@@ -67,6 +72,25 @@ a{
 .navbar-link{
     color: var(--white);
     font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-link:after{
+    content: "";
+    display: block;
+    background-color: var(--red);
+    height:3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar-link:hover{
+    color: #D3D3D3;
+}
+
+.navbar-link:hover:after{
+    width: 100%;
 }
 
 #navbar-header:target .navbar-container{
