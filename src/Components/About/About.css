@@ -15,6 +15,12 @@
     color: var(--red);
 }
 
+.about-me{
+    width: 90%
+}
+
 .about-me-description{
     color: var(--white);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }

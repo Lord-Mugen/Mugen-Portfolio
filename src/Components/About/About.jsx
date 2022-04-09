@@ -15,6 +15,9 @@ const About = () => {
               very good teamwork, either leading or
                 following, in order to provide solutions to
                 problems.</p>
+          
+          <p className="about-me-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eum architecto itaque consequatur voluptate autem quaerat ad, natus eius voluptas ipsa earum quidem reiciendis nulla velit perferendis temporibus in delectus.</p>
+          <p className="about-me-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eum architecto itaque consequatur voluptate autem quaerat ad, natus eius voluptas ipsa earum quidem reiciendis nulla velit perferendis temporibus in delectus.</p>
         </div>
         <div className="about-animation">
 
