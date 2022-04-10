@@ -17,6 +17,8 @@
 .hero-image-container{
     width: 14.5em;
     margin-bottom: 2em;
+    position: relative;
+    right: -6%;
 }
 
 .portrait-image{
@@ -29,8 +31,10 @@
 
 .hero-h1{
     color: var(--white);
-    font-size: clamp(1.9rem, 10vw, 3rem);  
+    font-size: clamp(1.9rem, 9vw, 3rem);  
     font-family: 'Inter', sans-serif;
+    position: relative;
+    top: -30%;
 
 }
 .hero-name{
@@ -41,6 +45,8 @@
     color: var(--white);
     font-size: 1.2rem;
     font-family: 'Inter', sans-serif;
+    position: relative;
+    top: -70%;
 
 }
 
@@ -70,6 +76,8 @@
     .portrait-image{
         border-radius: 1em;
         height: 100%;
+        position: relative;
+        left: -20%;
     }
 
     .hero-text-container{
@@ -192,7 +200,7 @@
         justify-content: flex-end;
     }
     .portrait-image{
-        border-radius: 50%;
+        border-radius: 10%;
         height: 90%;
         width:90%;
     }

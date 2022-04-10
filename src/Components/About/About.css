@@ -56,13 +56,15 @@
 
 .about-image-container{
     position: relative;
+    left: -5%;
     display: inline-block;
     width:clamp(20em, 2vw, 50rem);
 }
 
 .about-image{
-    width: 80%;
-    padding: 1em 2em;
+    width: 90%;
+    position: relative;
+    right: -9%;
 
 }
 
@@ -106,7 +108,7 @@
 @media (min-width: 992px) {
     
     .about-title-container{
-        width: 10em;
+        width: 11em;
         align-items: start;
     }
     
@@ -126,11 +128,89 @@
         width:100%;
         position: relative;
         top: -29%;
-        left: -10%;
+        left: -25%;
     }
     
     .about-image{
         height: 100%;
-        width: 90%;    
+        width: 105%;    
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+
+    .about-title-container{
+        width: 13em;
+        align-items: start;
+        margin-left: 2em;
+    }
+    
+
+    .about-me-description{
+        width: 70%;
+        text-align: start;
+        font-size: clamp(1em, 2vw, 3rem);
+        margin-left: 1em;
+    }
+    
+    .about-image-container{
+        width:110%;
+        position: relative;
+        top: -29%;
+        left: -40%;
+    }
+    
+    .about-image{
+        height: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .about-title-container{
+        width: 14em;
+        margin-left: 2em;
+    }
+    
+
+    .about-me-description{
+        width: 75%;
+    }
+    
+    .about-image-container{
+        width:120%;
+        position: relative;
+        top: -29%;
+        left: -20%;
+    }
+    
+    .about-image{
+        height: 95%;
+    }
+}
+
+@media (min-width: 1600px) {
+
+
+    .about-title-container{
+        width: 14em;
+        margin-left: 2em;
+    }
+    
+
+    .about-me-description{
+        width: 75%;
+    }
+    
+    .about-image-container{
+        position: relative;
+        top: -35%;
+        left: -20%;
+    }
+    
+    .about-image{
+        height: 110%;
     }
 }
