@@ -1,0 +1,57 @@
+:root{
+    --primary: #0B090A;
+    --red: #A4161A;
+    --white: #ffffff;
+}
+
+.contact{
+    width: 80%;
+}
+
+.contact-container{
+    display: grid;
+    justify-items: center;
+    background-color: var(--primary);
+}
+
+.contact-title-container{
+    color: var(--red);
+
+}
+
+.contact-title::after{
+    content: "";
+    display: block;
+    background-color: var(--red);
+    height:2px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.contact-form{
+    display: grid;
+}
+
+.contact-form-label{
+    color: var(--red);
+}
+
+.contact-form-input{
+    height: 2em;
+    margin-bottom: 3em;
+    background-color: var(--primary);
+    border: 0px 0px 1px 0px solid var(--red);
+}
+
+.contact-form-input::after{
+    content: "";
+    display: block;
+    background-color: var(--red);
+    height:2px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}

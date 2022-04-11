@@ -5,21 +5,39 @@
 }
 
 .proyects{
-    margin-bottom: 3em;
+    padding-bottom: 5em;
     background-color: var(--primary);
+
 }
 
 .proyects-title{
+    width: 100%;
     margin: 0;
     color: var(--red);
     background-color: var(--primary);
 
 }
 
+.proyects-title::after{
+    content: "";
+    display: block;
+    background-color: var(--red);
+    height:2px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
 .proyects-carrusel{
     display: flex;
     justify-content: space-between;
     overflow: scroll;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+}
+.proyects-carrusel::-webkit-scrollbar{
+    display: none;
 }
 
 .elements{

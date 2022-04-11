@@ -7,7 +7,7 @@ const Proyects = () => {
          <h1 className="proyects-title">My Proyects</h1>
         <section className="proyects">
             <div className="proyects-carrusel">
-                <div className="elements">1234567891234567</div>
+                <div className="elements">1</div>
                 <div className="elements">2345678912345678</div>
                 <div className="elements">3456789234567890</div>
                 <div className="elements">4123456789023456</div>

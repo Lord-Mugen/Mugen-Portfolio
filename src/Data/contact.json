@@ -1,0 +1,22 @@
+{
+    "contactData":[
+        {
+            "id":1,
+            "header": "Cra. 8 calle 31, Granada",
+            "text": "Adress"
+    
+        },
+        {
+            "id":2,
+            "header": "Christianjavieruizcortes@gmail.com",
+            "text": "Official Email"
+        },
+        {
+            "id":3,
+            "header": "3108672765",
+            "text": "Official Number"
+        }
+        
+
+    ]
+}
