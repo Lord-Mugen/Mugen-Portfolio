@@ -9,12 +9,21 @@
     background-color: var(--primary);
 
 }
+.proyects-title-container{
+    background-color: var(--primary);
+    width: 100%;
+    display: inline-block;
+    justify-items: center;
+
+}
 
 .proyects-title{
-    width: 100%;
+    width: 50%;
     margin: 0;
     color: var(--white);
     background-color: var(--primary);
+    position: relative;
+    right: -25%;
     
 
 }
@@ -37,9 +46,11 @@ span{
     display: flex;
     justify-content: space-between;
     overflow: scroll;
+    overflow-y: hidden;
     scroll-behavior: smooth;
     flex-wrap: nowrap;
     padding-top: 3em;
+    padding-bottom: 3em;
 }
 .proyects-carrusel::-webkit-scrollbar{
     display: none;
@@ -47,7 +58,13 @@ span{
 
 .elements{
     height: 15em;
-    width: 100%;
-    background-color: var(--red);
-    margin-right: 1em;
+}
+
+.proyects-image{
+    width: 15em;
+    margin-right: 2em;
+}
+
+.replic{
+    padding-left: 3em;
 }
