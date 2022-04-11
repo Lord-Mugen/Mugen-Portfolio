@@ -1,0 +1,60 @@
+{
+    "myStack":[
+    {   
+        "id":1,
+        "technology": "HTML",
+        "icon": " "
+
+    },
+    {   
+        "id":2,
+        "technology": "CSS",
+        "icon": ""
+    },
+    {
+        "id":3,
+        "technology": "JAVASCRIPT",
+        "icon": "" 
+    },
+    {
+        "id":4,
+        "technology": "BOOTSTRAP",
+        "icon": ""
+    },
+    {
+        "id":5,
+        "technology": "REACT",
+        "icon": ""
+    },
+    {
+        "id":6,
+        "technology": "MYSQL",
+        "icon": ""
+    },
+    {
+        "id":7,
+        "technology": "PHP",
+        "icon": ""
+    },
+    {
+        "id":8,
+        "technology": "MONGODB",
+        "icon": ""
+    },
+    {
+        "id":9,
+        "technology": "LARAVEL",
+        "icon": ""
+    },
+    {
+        "id":9,
+        "technology": "GIT",
+        "icon": ""
+    },
+    {
+        "id":10,
+        "technology": "GITHUB",
+        "icon": ""
+    }
+]
+}

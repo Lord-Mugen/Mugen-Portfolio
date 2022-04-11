@@ -94,7 +94,7 @@ a{
 }
 
 #navbar-header:target .navbar-container{
-    height: 400px;
+    height: 370px;
 }
 
 #navbar-header:target .open{

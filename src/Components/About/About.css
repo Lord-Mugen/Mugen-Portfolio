@@ -9,6 +9,7 @@
     display: grid;
     justify-items: center;
     align-content: center;
+    padding-bottom: 4em;
 }
 
 .about-title-container{
@@ -59,6 +60,7 @@
     left: -5%;
     display: inline-block;
     width:clamp(20em, 2vw, 50rem);
+    padding-top: 2em;
 }
 
 .about-image{
@@ -104,7 +106,6 @@
     
 }
 
-
 @media (min-width: 992px) {
     
     .about-title-container{
@@ -136,7 +137,6 @@
         width: 105%;    
     }
 }
-
 
 @media (min-width: 1200px) {
 

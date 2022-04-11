@@ -1,0 +1,30 @@
+:root{
+    --primary: #0B090A;
+    --red: #A4161A;
+    --white: #ffffff;
+}
+
+.proyects{
+    margin-bottom: 3em;
+    background-color: var(--primary);
+}
+
+.proyects-title{
+    margin: 0;
+    color: var(--red);
+    background-color: var(--primary);
+
+}
+
+.proyects-carrusel{
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.elements{
+    height: 15em;
+    width: 100%;
+    background-color: var(--red);
+    margin-right: 1em;
+}
