@@ -14,8 +14,11 @@
 
 .stack-title{
     margin: 0;
-    color: var(--red);
+    color: var(--white);
     margin-bottom: 3em;
+}
+span{
+    color: var(--red);
 }
 
 .stack-title::after{

@@ -13,9 +13,13 @@
 .proyects-title{
     width: 100%;
     margin: 0;
-    color: var(--red);
+    color: var(--white);
     background-color: var(--primary);
+    
 
+}
+span{
+    color: var(--red);
 }
 
 .proyects-title::after{
@@ -35,6 +39,7 @@
     overflow: scroll;
     scroll-behavior: smooth;
     flex-wrap: nowrap;
+    padding-top: 3em;
 }
 .proyects-carrusel::-webkit-scrollbar{
     display: none;

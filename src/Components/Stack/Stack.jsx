@@ -8,7 +8,7 @@ const Stack = () => {
   return (
     <div>
         <section className="stack">
-          <h1 className="stack-title">MY Stack</h1>
+          <h1 className="stack-title">My <span>Stack</span></h1>
           <div className="stack-btn-container">
 
             {

@@ -35,14 +35,21 @@
 }
 
 .contact-form-label{
-    color: var(--red);
+    color: var(--white);
+    margin-right: 1em;
 }
 
 .contact-form-input{
     height: 2em;
     margin-bottom: 3em;
     background-color: var(--primary);
-    border: 0px 0px 1px 0px solid var(--red);
+}
+
+input, textarea{
+    border: 1px solid var(--red);
+    border-radius: 0;
+  
+    -webkit-appearance: none;
 }
 
 .contact-form-input::after{

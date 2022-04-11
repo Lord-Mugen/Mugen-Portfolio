@@ -4,7 +4,7 @@ import './Proyects.css'
 const Proyects = () => {
   return (
     <div>
-         <h1 className="proyects-title">My Proyects</h1>
+         <h1 className="proyects-title">My <span>Proyects</span></h1>
         <section className="proyects">
             <div className="proyects-carrusel">
                 <div className="elements">1</div>
