@@ -32,4 +32,14 @@ In the end some changes were made to the buttons in the stack section
 
 ## Project requirements
 
-* 
+* Must be responsive.
+![image](https://user-images.githubusercontent.com/79488966/162966577-56d6c4eb-8d60-41fb-af8b-f5784fd92771.png)
+
+* Must be developed with react.
+* Must have a resume.
+
+## Construction and use
+
+It was necessary to use React js, html and css for a good result. </br>
+The use is possible through mouses, keyboards and sliding the phone screen. 
+
