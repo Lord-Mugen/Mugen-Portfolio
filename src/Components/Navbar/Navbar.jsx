@@ -11,7 +11,7 @@ const Navbar = () => {
   const closeIcon = <Icon icon="eva:close-fill" className="close-icon"/>;
 
   return (
-    <div>
+    <div id="navbar">
       <nav className="navbar" id="navbar-header">
 
         <header className="navbar-header">
