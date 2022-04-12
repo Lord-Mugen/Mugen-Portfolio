@@ -4,10 +4,11 @@ This is my portfolio
 
 ![image](https://user-images.githubusercontent.com/79488966/162963378-6f804d9b-eb5c-4d84-9954-dd332dbfaf31.png)
 
+You can go to see it with the following link : https://mugen-portfolio.vercel.app/
 
 ## To install
 
-To install the proyect use the comand ###npm install
+To install the proyect use the comand * npm install *
 
 
 ## To start
@@ -32,8 +33,8 @@ In the end some changes were made to the buttons in the stack section
 
 ## Project requirements
 
-* Must be responsive.
-![image](https://user-images.githubusercontent.com/79488966/162966577-56d6c4eb-8d60-41fb-af8b-f5784fd92771.png)
+* Must be responsive:
+ * ![image](https://user-images.githubusercontent.com/79488966/162966577-56d6c4eb-8d60-41fb-af8b-f5784fd92771.png)
 
 * Must be developed with react.
 * Must have a resume.
@@ -43,3 +44,6 @@ In the end some changes were made to the buttons in the stack section
 It was necessary to use React js, html and css for a good result. </br>
 The use is possible through mouses, keyboards and sliding the phone screen. 
 
+
+## Exeption of responsabilities 
+This project is shared "as is" for the sole purpose of making it useful. The creator(s) of this hardware and its associated software cannot guarantee its correct operation under any circumstances. The author(s) of this project cannot be held responsible for any loss of a material, personal or economic nature to himself or third parties derived from its use. This project should not be used under any circumstances in critical systems or systems on which people's lives depend directly or indirectly.
