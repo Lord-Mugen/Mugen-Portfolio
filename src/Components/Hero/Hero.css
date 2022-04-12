@@ -34,7 +34,7 @@
     font-size: 3rem;  
     font-family: 'Inter', sans-serif;
     position: relative;
-    top: -30%;
+    top: -10%;
 
 }
 .hero-name{
@@ -153,7 +153,7 @@
 
     .hero-h1{
         text-align: start;
-        font-size: clamp(1.9rem, 10vw, 6rem);  
+        font-size: clamp(1.9rem, 10vw, 6rem); 
 
     }
     .hero-h3{
