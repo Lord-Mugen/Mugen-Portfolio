@@ -68,3 +68,59 @@ span{
 .replic{
     padding-left: 3em;
 }
+
+@media (min-width: 768px) {
+    
+    .proyects-title{
+        width: 25%;
+        position: relative;
+        right: -40%;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .proyects-title{
+        width: 20%;
+        position: relative;
+        right: -43%;
+    }
+    
+    .elements{
+        height: 23em;
+    }
+
+    .proyects-image{
+        width: 23em;
+        margin-right: 4em;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .proyects-title{
+        width: 16%;
+        position: relative;
+        right: -43%;
+    }
+   
+    .elements{
+        height: 28em;
+        margin-top: 6em;
+        margin-bottom: 10em;
+    }
+
+    .proyects-image{
+        width: 28em;
+        margin-right: 4em;
+    }
+}
+
+@media (min-width: 1400px) {
+    
+    .proyects-title{
+        width: 17%;
+        position: relative;
+        font-size: 2.5em;
+    }
+}

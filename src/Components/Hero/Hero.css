@@ -17,6 +17,7 @@
 .hero-image-container{
     width: 14.5em;
     margin-bottom: 2em;
+    margin-left: 2em;
     
 }
 
@@ -147,7 +148,7 @@
         align-content: center;
         padding-bottom: 3.5em;
         padding-left: 3em;
-        margin-right: 5em;
+        margin-right: 9em;
     }
 
     .hero-h1{

@@ -22,6 +22,9 @@
     font-size: clamp(1.5em, 3vw, 2rem);
 
 }
+.about-title span{
+    color: var(--white);
+}
 
 .about-title::after{
     content: "";
@@ -207,7 +210,7 @@
     .about-image-container{
         position: relative;
         top: -35%;
-        left: -20%;
+        left: -40%;
     }
     
     .about-image{

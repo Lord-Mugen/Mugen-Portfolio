@@ -9,7 +9,7 @@ import Todo from '../../assets/images/mongo-todo-list.svg';
 
 const Proyects = () => {
   return (
-    <div>
+    <div id="proyects">
       <div className="proyects-title-container">
          <h1 className="proyects-title">My <span>Proyects</span></h1>
       </div>

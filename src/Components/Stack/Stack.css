@@ -38,7 +38,7 @@ span{
     display: grid;
     grid-gap: 2rem 2rem ;
     grid-template-columns: 10em 10em;
-    grid-template-rows: 1em 1em 1em;
+    grid-template-rows: 3em 3em 3em 3em 3em;
     justify-items: center;
 }
 
@@ -71,8 +71,8 @@ span{
    
 
     .stack-btn-container{
-        grid-gap: 5em 5em ;
-        grid-template-columns: 15em 15em 15em;
+        grid-gap: 5.5em 5.5em ;
+        grid-template-columns: 15em 18em 15em;
     }
 }
 
@@ -80,6 +80,18 @@ span{
    
     .stack-btn-container{
         grid-gap: 6em 6em ;
-        grid-template-columns: 19em 19em 19em;
+        grid-template-columns: 20em 20em 20em;
+    }
+}
+
+@media (min-width: 1600px) {
+    
+    .stack-title{
+        font-size: 3.2em;
+    }
+
+    .stack-btn-container{
+        grid-gap: 8em 8em ;
+        grid-template-columns: 24em 24em 24em;
     }
 }

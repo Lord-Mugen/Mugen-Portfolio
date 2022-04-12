@@ -8,3 +8,26 @@
     font-family: 'Quicksand', sans-serif;
     width: 10em;
 }
+.button:hover{
+    background-color: #A4161A;
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .button{
+    padding: 0.5em 2em 0.5em 1em; 
+    font-size: 0.95em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .button{
+        font-size: 1.3em;
+        }
+}
+
+@media (min-width: 1600px) {
+    .button{
+        font-size: 1.5em;
+        }
+}

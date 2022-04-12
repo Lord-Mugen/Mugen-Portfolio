@@ -4,9 +4,9 @@ import Aboutimage from '../../assets/images/aboutimage.svg';
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <div className="about-title-container">
-        <h1 className="about-title">About me</h1>
+        <h1 className="about-title"><span>About</span> me</h1>
       </div>
       <section className="about">
         

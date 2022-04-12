@@ -5,7 +5,7 @@ import perfil from '../../assets/images/profile2.jpg';
 const Hero = () => {
 
   return (
-    <div>
+    <div id="hero">
       <section className="hero">
         <div className="hero-image-container">
           <img src={perfil} alt="portrait-image" className="portrait-image"/>
