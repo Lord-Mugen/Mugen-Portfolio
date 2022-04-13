@@ -4,12 +4,12 @@
     --white: #ffffff;
 }
 
-.proyects{
+.projects{
     padding-bottom: 5em;
     background-color: var(--primary);
 
 }
-.proyects-title-container{
+.projects-title-container{
     background-color: var(--primary);
     width: 100%;
     display: inline-block;
@@ -17,7 +17,7 @@
 
 }
 
-.proyects-title{
+.projects-title{
     width: 50%;
     margin: 0;
     color: var(--white);
@@ -31,7 +31,7 @@ span{
     color: var(--red);
 }
 
-.proyects-title::after{
+.projects-title::after{
     content: "";
     display: block;
     background-color: var(--red);
@@ -42,7 +42,7 @@ span{
     transition: 0.3s;
 }
 
-.proyects-carrusel{
+.projects-carrusel{
     display: flex;
     justify-content: space-between;
     overflow: scroll;
@@ -52,15 +52,14 @@ span{
     padding-top: 3em;
     padding-bottom: 3em;
 }
-.proyects-carrusel::-webkit-scrollbar{
-    display: none;
+.projects-carrusel::-webkit-scrollbar{
 }
 
 .elements{
     height: 15em;
 }
 
-.proyects-image{
+.projects-image{
     width: 15em;
     margin-right: 2em;
 }
@@ -71,7 +70,7 @@ span{
 
 @media (min-width: 768px) {
     
-    .proyects-title{
+    .projects-title{
         width: 25%;
         position: relative;
         right: -40%;
@@ -80,7 +79,7 @@ span{
 
 @media (min-width: 992px) {
 
-    .proyects-title{
+    .projects-title{
         width: 20%;
         position: relative;
         right: -43%;
@@ -90,7 +89,7 @@ span{
         height: 23em;
     }
 
-    .proyects-image{
+    .projects-image{
         width: 23em;
         margin-right: 4em;
     }
@@ -98,7 +97,7 @@ span{
 
 @media (min-width: 1200px) {
 
-    .proyects-title{
+    .projects-title{
         width: 16%;
         position: relative;
         right: -43%;
@@ -110,7 +109,7 @@ span{
         margin-bottom: 10em;
     }
 
-    .proyects-image{
+    .projects-image{
         width: 28em;
         margin-right: 4em;
     }
@@ -118,7 +117,7 @@ span{
 
 @media (min-width: 1400px) {
     
-    .proyects-title{
+    .projects-title{
         width: 17%;
         position: relative;
         font-size: 2.5em;
