@@ -54,6 +54,10 @@ span{
     padding-left: 3em;
 }
 
+/* .projects-carrusel::-webkit-scrollbar{
+    display: none;
+} */
+
 .projects-carrusel::-webkit-scrollbar{
     width: 1em;
 }
