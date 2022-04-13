@@ -51,10 +51,26 @@ span{
     flex-wrap: nowrap;
     padding-top: 3em;
     padding-bottom: 3em;
+    padding-left: 3em;
 }
-.projects-carrusel::-webkit-scrollbar{
+
+/* .projects-carrusel::-webkit-scrollbar{
     display: none;
+} */
+
+.projects-carrusel::-webkit-scrollbar{
+    width: 1em;
 }
+
+.projects-carrusel::-webkit-scrollbar-track{
+    background-color: var(--primary);
+}
+.projects-carrusel::-webkit-scrollbar-thumb{
+    background-color: var(--red);
+    border-radius: 1.2em;
+    border: 3px solid var(--primary);
+}
+
 
 .elements{
     height: 15em;
@@ -65,9 +81,6 @@ span{
     margin-right: 2em;
 }
 
-.replic{
-    padding-left: 3em;
-}
 
 @media (min-width: 768px) {
     

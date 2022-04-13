@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <div className="projects-title-container">
-         <h1 className="projects-title">My <span>Projects</span></h1>
+         <h1 className="projects-title">My <span>Proyects</span></h1>
       </div>
         <section className="projects">
             <div className="projects-carrusel">

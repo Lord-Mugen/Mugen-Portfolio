@@ -22,6 +22,8 @@ const About = () => {
         <div className="about-image-container"> {/* There was going to be an animation here but for now it wont. */}
           <img src={Aboutimage} alt="about-image" className="about-image"/>
         </div>
+        <a href="/* link to the cv */"><button className="about-cv">Download cv</button></a>
+        
       </section>
     </div>
   )
