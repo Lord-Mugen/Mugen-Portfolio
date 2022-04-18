@@ -6,6 +6,7 @@
 
 .contact{
     width: 80%;
+    border: none;
 }
 
 .contact-container{
@@ -15,7 +16,7 @@
 }
 
 .contact-title-container{
-    color: var(--red);
+    color: var(--white);
 
 }
 
@@ -30,36 +31,4 @@
     transition: 0.3s;
 }
 
-.contact-form{
-    display: grid;
-    border: 2px solid red;
-}
 
-.contact-form-label{
-    color: var(--white);
-    margin-right: 1em;
-}
-
-.contact-form-input{
-    height: 2em;
-    margin-bottom: 3em;
-    background-color: var(--primary);
-}
-
-input, textarea{
-    border: 1px solid var(--red);
-    border-radius: 0;
-  
-    -webkit-appearance: none;
-}
-
-.contact-form-input::after{
-    content: "";
-    display: block;
-    background-color: var(--red);
-    height:2px;
-    width: 100%;
-    left: 0;
-    bottom: -10px;
-    transition: 0.3s;
-}
