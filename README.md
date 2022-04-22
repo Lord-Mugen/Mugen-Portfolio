@@ -8,11 +8,11 @@ You can go to see it with the following link : https://mugen-portfolio.vercel.ap
 
 ## To install
 
-To install the proyect use the comand * npm install *
+To install the project use the comand * npm install *
 
 
 ## To start
- To start the proyect use the comand npm start and it will run in your (http://localhost:3000).
+ To start the project use the comand npm start and it will run in your (http://localhost:3000).
 
 
 
