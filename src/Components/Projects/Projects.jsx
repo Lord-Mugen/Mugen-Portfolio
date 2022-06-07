@@ -16,19 +16,19 @@ const Projects = () => {
         <section className="projects">
             <div className="projects-carrusel">
                 <div className="elements">
-                  <a href="https://lord-mugen.github.io/ReplicaWeb/" target="_blank"><img src={Replica} alt="replicaWeb" className="projects-image replic"/></a>
+                  <a href="https://elcabal.github.io/Toquen-el-DOM/" target="_blank" rel="noreferrer"><img src={Dom} alt="toquen-el-dom" className="projects-image"/></a>
                 </div>
                 <div className="elements">
-                  <a href="https://elcabal.github.io/Toquen-el-DOM/" target="_blank"><img src={Dom} alt="toquen-el-dom" className="projects-image"/></a>
+                  <a href="https://lord-mugen.github.io/Covid_19/" target="_blank" rel="noreferrer"><img src={Covid} alt="impacto-covid" className="projects-image"/></a>
                 </div>
                 <div className="elements">
-                  <a href="https://lord-mugen.github.io/Covid_19/" target="_blank"><img src={Covid} alt="impacto-covid" className="projects-image"/></a>
+                  <a href="https://lord-mugen.github.io/ReplicaWeb/" target="_blank" rel="noreferrer"><img src={Replica} alt="replicaWeb" className="projects-image replic"/></a>
                 </div>
                 <div className="elements">
-                  <a href="https://mentayvioleta.herokuapp.com/" target="_blank"><img src={Menta} alt="menta-y-violeta" className="projects-image"/></a>
+                  <a href="https://mentayvioleta.herokuapp.com/" target="_blank" rel="noreferrer"><img src={Menta} alt="menta-y-violeta" className="projects-image"/></a>
                 </div>
                 <div className="elements">
-                  <a href="http://consultorio-crud.infinityfreeapp.com/lo-tienes-crudo-consultorio/" target="_blank"><img src={Crud} alt="crud-php" className="projects-image"/></a>
+                  <a href="http://consultorio-crud.infinityfreeapp.com/lo-tienes-crudo-consultorio/" target="_blank" rel="noreferrer"><img src={Crud} alt="crud-php" className="projects-image"/></a>
                 </div>
                 <div className="elements">
                  <img src={Todo} alt="mongo-todo-list" className="projects-image"/>
