@@ -22,7 +22,10 @@ const About = () => {
         <div className="about-image-container"> {/* There was going to be an animation here but for now it wont. */}
           <img src={Aboutimage} alt="about-image" className="about-image"/>
         </div>
-        <a href="/* link to the cv */"><button className="about-cv">Download cv</button></a>
+        <a 
+        href="https://drive.google.com/file/d/12zUP0lDQnntv7E5tKote-AhqhJ5bV5i1/view?usp=sharing" 
+        target="_blank" rel="noreferrer">
+          <button className="about-cv">Download cv</button></a>
         
       </section>
     </div>

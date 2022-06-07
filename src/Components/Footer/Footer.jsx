@@ -14,7 +14,7 @@ const Footer = () => {
               <img src={Logo} alt="logo-footer" className="footer-logo"/>
             </div>
             <div className="footer-link">
-              <a href="https://github.com/Lord-Mugen" target="_blank">{github}</a>
+              <a href="https://github.com/Lord-Mugen" target="_blank" rel="">{github}</a>
               <a href="https://www.linkedin.com/in/christian-javier-ruiz-cort%C3%A9s/" target="_blank">{linkedin}</a>
             </div>
             <a href="#navbar">{up}</a>
