@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my portfolio
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/79488966/162963378-6f804d9b-eb5c-4d84-9954-dd332dbfaf31.png)
 
-In the project directory, you can run:
+You can go to see it with the following link : https://mugen-portfolio.vercel.app/
 
-### `npm start`
+## To install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To install the project use the comand * npm install *
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## To start
+ To start the project use the comand npm start and it will run in your (http://localhost:3000).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Last aditions 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In the end some changes were made to the buttons in the stack section
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Changes:
 
-### `npm run eject`
+* ![image](https://user-images.githubusercontent.com/79488966/162963799-cf621a9f-0dc9-4c92-b8bd-f67a6107491c.png)
+* Some sections were removed due to the time.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Correcctions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* some misspellings in the content. </br>
+* some color changes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project requirements
 
-## Learn More
+* Must be responsive:
+ * ![image](https://user-images.githubusercontent.com/79488966/162966577-56d6c4eb-8d60-41fb-af8b-f5784fd92771.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Must be developed with react.
+* Must have a resume.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Construction and use
 
-### Code Splitting
+It was necessary to use React js, html and css for a good result. </br>
+The use is possible through mouses, keyboards and sliding the phone screen. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Exeption of responsabilities 
+This project is shared "as is" for the sole purpose of making it useful. The creator(s) of this hardware and its associated software cannot guarantee its correct operation under any circumstances. The author(s) of this project cannot be held responsible for any loss of a material, personal or economic nature to himself or third parties derived from its use. This project should not be used under any circumstances in critical systems or systems on which people's lives depend directly or indirectly.

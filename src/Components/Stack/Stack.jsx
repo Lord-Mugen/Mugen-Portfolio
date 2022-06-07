@@ -10,7 +10,7 @@ const Stack = () => {
   return (
     <div id="stack">
         <section className="stack">
-          <h1 className="stack-title">My <span>Stack</span></h1>
+          <h1 className="stack-title">My <span translate="no"> Stack</span></h1>
           <div className="stack-btn-container">
 
              {
