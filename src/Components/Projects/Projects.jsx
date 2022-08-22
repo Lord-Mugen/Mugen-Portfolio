@@ -6,6 +6,7 @@ import Covid from '../../assets/images/impacto-covid-19.svg';
 import Menta from '../../assets/images/menta-y-violeta.svg';
 import Crud from '../../assets/images/crud-php.svg';
 import Todo from '../../assets/images/mongo-todo-list.svg';
+import Avia from '../../assets/images/avia.svg';
 
 const Projects = () => {
   return (
@@ -20,6 +21,9 @@ const Projects = () => {
                 </div>
                 <div className="elements">
                   <a href="https://lord-mugen.github.io/Covid_19/" target="_blank" rel="noreferrer"><img src={Covid} alt="impacto-covid" className="projects-image"/></a>
+                </div>
+                <div className="elements">
+                  <a href="https://avia-test-three.vercel.app/" target="_blank" rel="noreferrer"><img src={Avia} alt="avia-test" className="projects-image"/></a>
                 </div>
                 <div className="elements">
                   <a href="https://lord-mugen.github.io/ReplicaWeb/" target="_blank" rel="noreferrer"><img src={Replica} alt="replicaWeb" className="projects-image replic"/></a>
