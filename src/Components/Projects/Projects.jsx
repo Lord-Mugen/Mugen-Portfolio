@@ -7,6 +7,7 @@ import Menta from '../../assets/images/menta-y-violeta.svg';
 import Crud from '../../assets/images/crud-php.svg';
 import Todo from '../../assets/images/mongo-todo-list.svg';
 import Avia from '../../assets/images/avia.svg';
+import chiwi from '../../assets/images/chiwi.svg';
 
 const Projects = () => {
   return (
@@ -26,17 +27,20 @@ const Projects = () => {
                   <a href="https://avia-test-three.vercel.app/" target="_blank" rel="noreferrer"><img src={Avia} alt="avia-test" className="projects-image"/></a>
                 </div>
                 <div className="elements">
+                  <a href="http://safe-forest-97695.herokuapp.com/" target="_blank" rel="noreferrer"><img src={chiwi} alt="chiwiAcademy" className="projects-image replic"/></a>
+                </div>
+                <div className="elements">
                   <a href="https://lord-mugen.github.io/ReplicaWeb/" target="_blank" rel="noreferrer"><img src={Replica} alt="replicaWeb" className="projects-image replic"/></a>
                 </div>
-                <div className="elements">
+                {/* <div className="elements">
                   <a href="https://mentayvioleta.herokuapp.com/" target="_blank" rel="noreferrer"><img src={Menta} alt="menta-y-violeta" className="projects-image"/></a>
-                </div>
-                <div className="elements">
+                </div> */}
+                {/* <div className="elements">
                   <a href="http://consultorio-crud.infinityfreeapp.com/lo-tienes-crudo-consultorio/" target="_blank" rel="noreferrer"><img src={Crud} alt="crud-php" className="projects-image"/></a>
-                </div>
-                <div className="elements">
+                </div> */}
+                {/* <div className="elements">
                  <img src={Todo} alt="mongo-todo-list" className="projects-image"/>
-                </div>
+                </div> */}
                 
             </div>
         </section>
