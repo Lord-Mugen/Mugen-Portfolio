@@ -1,11 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import Replica from "../../assets/images/replica-web.svg";
 import Dom from "../../assets/images/toquen-el-dom.svg";
 import Covid from "../../assets/images/impacto-covid-19.svg";
-import Menta from "../../assets/images/menta-y-violeta.svg";
-import Crud from "../../assets/images/crud-php.svg";
-import Todo from "../../assets/images/mongo-todo-list.svg";
 import Avia from "../../assets/images/avia.svg";
 import chiwi from "../../assets/images/chiwi.svg";
 
