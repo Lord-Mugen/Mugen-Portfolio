@@ -4,6 +4,7 @@ import Dom from "../../assets/images/toquen-el-dom.svg";
 import Covid from "../../assets/images/impacto-covid-19.svg";
 import Avia from "../../assets/images/avia.svg";
 import chiwi from "../../assets/images/chiwi.svg";
+import aranda from "../../assets/images/aranda.svg";
 
 const Projects = () => {
   return (
@@ -40,6 +41,15 @@ const Projects = () => {
               rel="noreferrer"
             >
               <img src={Covid} alt="impacto-covid" className="projects-image" />
+            </a>
+          </div>
+          <div className="elements">
+            <a
+              href="https://aranda-test.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={aranda} alt="aranda test" className="projects-image" />
             </a>
           </div>
           <div className="elements">
