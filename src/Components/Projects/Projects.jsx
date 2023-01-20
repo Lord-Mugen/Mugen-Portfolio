@@ -5,6 +5,7 @@ import Covid from "../../assets/images/impacto-covid-19.svg";
 import Avia from "../../assets/images/avia.svg";
 import chiwi from "../../assets/images/chiwi.svg";
 import aranda from "../../assets/images/aranda.svg";
+import news from "../../assets/images/news-homepage.svg";
 
 const Projects = () => {
   return (
@@ -34,6 +35,16 @@ const Projects = () => {
               <img src={Avia} alt="avia-test" className="projects-image" />
             </a>
           </div>
+          <div className="elements">
+            <a
+              href="https://news-homepage-ivory-eight.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={news} alt="news-homepage" className="projects-image" />
+            </a>
+          </div>
+
           <div className="elements">
             <a
               href="https://lord-mugen.github.io/Covid_19/tracker.html"
