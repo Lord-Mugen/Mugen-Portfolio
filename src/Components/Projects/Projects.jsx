@@ -44,16 +44,6 @@ const Projects = () => {
               <img src={news} alt="news-homepage" className="projects-image" />
             </a>
           </div>
-
-          <div className="elements">
-            <a
-              href="https://lord-mugen.github.io/Covid_19/tracker.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={Covid} alt="impacto-covid" className="projects-image" />
-            </a>
-          </div>
           <div className="elements">
             <a
               href="https://aranda-test.vercel.app/"
@@ -63,6 +53,16 @@ const Projects = () => {
               <img src={aranda} alt="aranda test" className="projects-image" />
             </a>
           </div>
+          <div className="elements">
+            <a
+              href="https://lord-mugen.github.io/Covid_19/tracker.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Covid} alt="impacto-covid" className="projects-image" />
+            </a>
+          </div>
+          
           <div className="elements">
             <a
               href="http://safe-forest-97695.herokuapp.com/"
