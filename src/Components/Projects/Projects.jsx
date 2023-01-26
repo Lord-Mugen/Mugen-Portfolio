@@ -6,6 +6,7 @@ import Avia from "../../assets/images/avia.svg";
 import chiwi from "../../assets/images/chiwi.svg";
 import aranda from "../../assets/images/aranda.svg";
 import news from "../../assets/images/news-homepage.svg";
+import gpt from "../../assets/images/GPT.svg";
 
 const Projects = () => {
   return (
@@ -17,6 +18,15 @@ const Projects = () => {
       </div>
       <section className="projects">
         <div className="projects-carrusel">
+          <div className="elements">
+            <a
+              href="https://gpt-project.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={gpt} alt="CHAT GPT3" className="projects-image" />
+            </a>
+          </div>
           <div className="elements">
             <a
               href="https://elcabal.github.io/Toquen-el-DOM/"
@@ -62,7 +72,6 @@ const Projects = () => {
               <img src={Covid} alt="impacto-covid" className="projects-image" />
             </a>
           </div>
-          
           <div className="elements">
             <a
               href="http://safe-forest-97695.herokuapp.com/"
